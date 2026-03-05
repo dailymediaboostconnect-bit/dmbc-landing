@@ -1,8 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 
 <meta charset="UTF-8">
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <title>DailyMediaBoost Connect</title>
@@ -10,67 +12,245 @@
 <style>
 
 body{
+
 margin:0;
-font-family:Arial, Helvetica, sans-serif;
-background:#0f172a;
+
+font-family:Arial,Helvetica,sans-serif;
+
+background:#05060f;
+
 color:white;
-text-align:center;
+
 }
 
 .container{
-max-width:900px;
+
+width:90%;
+
+max-width:1100px;
+
 margin:auto;
-padding:80px 20px;
+
+}
+
+header{
+
+display:flex;
+
+justify-content:space-between;
+
+align-items:center;
+
+padding:30px 0;
+
 }
 
 .logo{
-width:200px;
-margin-bottom:30px;
+
+font-size:22px;
+
+font-weight:bold;
+
+color:#c084fc;
+
 }
 
-h1{
+.hero{
+
+text-align:center;
+
+padding:120px 0;
+
+}
+
+.hero h1{
+
 font-size:48px;
+
 margin-bottom:20px;
+
 }
 
-h2{
-font-size:36px;
-margin-bottom:20px;
-}
+.hero p{
 
-p{
-font-size:20px;
-color:#cbd5f5;
+color:#9ca3af;
+
+max-width:600px;
+
+margin:auto;
+
 }
 
 .cta{
+
 display:inline-block;
-margin-top:40px;
-background:#22c55e;
-padding:18px 40px;
-border-radius:12px;
-font-size:20px;
-font-weight:bold;
-color:white;
+
+margin-top:30px;
+
+padding:16px 34px;
+
+background:linear-gradient(90deg,#7c3aed,#a855f7);
+
+border-radius:30px;
+
 text-decoration:none;
+
+color:white;
+
+font-weight:bold;
+
+}
+
+.creator-counter{
+
+margin-top:15px;
+
+color:#a78bfa;
+
+font-weight:600;
+
 }
 
 .section{
-margin-top:100px;
+
+padding:100px 0;
+
+}
+
+.section-title{
+
+text-align:center;
+
+font-size:36px;
+
+margin-bottom:20px;
+
+}
+
+.section-sub{
+
+text-align:center;
+
+color:#9ca3af;
+
+margin-bottom:60px;
+
+}
+
+.grid{
+
+display:grid;
+
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+
+gap:30px;
+
 }
 
 .card{
-background:#1e293b;
-padding:30px;
-border-radius:16px;
-margin-top:20px;
+
+background:#0f1020;
+
+border-radius:20px;
+
+padding:40px;
+
+border:1px solid rgba(255,255,255,0.05);
+
 }
 
-.counter{
-margin-top:30px;
-color:#22c55e;
+.card h3{
+
+margin-top:10px;
+
+}
+
+.steps{
+
+max-width:700px;
+
+margin:auto;
+
+display:grid;
+
+gap:40px;
+
+}
+
+.step{
+
+text-align:center;
+
+}
+
+.number{
+
+width:60px;
+
+height:60px;
+
+background:#111827;
+
+border-radius:12px;
+
+display:flex;
+
+align-items:center;
+
+justify-content:center;
+
+margin:auto;
+
+margin-bottom:15px;
+
+color:#a855f7;
+
 font-weight:bold;
-font-size:18px;
+
+}
+
+.referral{
+
+padding:100px 20px;
+
+text-align:center;
+
+background:#0b0c1a;
+
+}
+
+footer{
+
+text-align:center;
+
+padding:60px 0;
+
+color:#9ca3af;
+
+}
+
+.sticky{
+
+position:fixed;
+
+bottom:25px;
+
+right:25px;
+
+background:#7c3aed;
+
+color:white;
+
+padding:14px 24px;
+
+border-radius:30px;
+
+text-decoration:none;
+
+font-weight:bold;
+
+box-shadow:0 10px 30px rgba(124,58,237,0.5);
+
 }
 
 </style>
@@ -81,89 +261,226 @@ font-size:18px;
 
 <div class="container">
 
-<img src="dmbc-logo.png.PNG" class="logo" alt="DailyMediaBoost Connect Logo">
+<header>
 
-<h1>Turn Your Influence Into Income</h1>
+<div class="logo">DailyMediaBoost Connect</div>
 
-<p>
-DailyMediaBoost Connect is the platform where creators and brands collaborate on powerful marketing campaigns.
-</p>
-
-<p>Creators with 10K+ followers get priority access.</p>
-
-<div class="counter">
-🔥 1,284 creators already joined
-</div>
-
-<a class="cta" href="https://platform.dailymediaboostconnect.com">
-Create Your Creator Account
-</a>
+</header>
 
 </div>
 
-
-<div class="container section">
-
-<h2>How It Works</h2>
-
-<div class="card">
-<h3>1️⃣ Create Your Profile</h3>
-<p>Sign up and connect your social media accounts.</p>
-</div>
-
-<div class="card">
-<h3>2️⃣ Get Campaign Invitations</h3>
-<p>Brands discover your profile and invite you to campaigns.</p>
-</div>
-
-<div class="card">
-<h3>3️⃣ Get Paid</h3>
-<p>Complete campaigns and earn from brand collaborations.</p>
-</div>
-
-</div>
-
-
-<div class="container section">
-
-<h2>Why Creators Love It</h2>
-
-<div class="card">
-<h3>💰 Brand Deals</h3>
-<p>Get paid collaborations from verified brands.</p>
-</div>
-
-<div class="card">
-<h3>⚡ Fast Campaigns</h3>
-<p>Receive campaign offers directly from businesses ready to promote.</p>
-</div>
-
-<div class="card">
-<h3>📈 Keep 80%</h3>
-<p>Creators keep 80% of campaign revenue.</p>
-</div>
-
-</div>
-
-
-<div class="container section">
-
-<h2>Ready to Turn Your Content Into Income?</h2>
-
-<a class="cta" href="https://platform.dailymediaboostconnect.com">
-Join as a Creator
-</a>
-
-</div>
-
+<section class="hero">
 
 <div class="container">
 
-<p style="margin-top:100px;color:#94a3b8">
-© 2026 DailyMediaBoost Connect
+<p>Join 10,000+ Creators</p>
+
+<h1>Get Paid for Brand Collaborations</h1>
+
+<p>
+
+Join DailyMediaBoost Connect and collaborate with brands looking for influencers.
+
+Keep 80% of your earnings and build lasting partnerships.
+
 </p>
+
+<div class="creator-counter">
+
+🔥 <span id="count">1284</span> creators already joined
 
 </div>
 
+<a class="cta" href="https://platform.dailymediaboostconnect.com">
+
+Join as a Creator →
+
+</a>
+
+</div>
+
+</section>
+
+<section class="section">
+
+<div class="container">
+
+<h2 class="section-title">Creator Benefits</h2>
+
+<p class="section-sub">
+
+Everything you need to monetize your influence.
+
+</p>
+
+<div class="grid">
+
+<div class="card">
+
+<h3>Keep 80% of Earnings</h3>
+
+<p>Industry-leading payout rates.</p>
+
+</div>
+
+<div class="card">
+
+<h3>Work with Growing Brands</h3>
+
+<p>Access exclusive campaigns.</p>
+
+</div>
+
+<div class="card">
+
+<h3>Get Discovered</h3>
+
+<p>Businesses actively search for creators.</p>
+
+</div>
+
+<div class="card">
+
+<h3>Build Partnerships</h3>
+
+<p>Turn collaborations into long-term deals.</p>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<section class="referral">
+
+<h2>Invite Creators. Earn More.</h2>
+
+<p>
+
+Grow your network and earn rewards when creators you invite collaborate with brands.
+
+</p>
+
+<a class="cta" href="https://platform.dailymediaboostconnect.com">
+
+Get Your Referral Link →
+
+</a>
+
+</section>
+
+<section class="section">
+
+<div class="container">
+
+<h2 class="section-title">How It Works</h2>
+
+<p class="section-sub">
+
+From signup to payout in four steps.
+
+</p>
+
+<div class="steps">
+
+<div class="step">
+
+<div class="number">01</div>
+
+<h3>Create Your Creator Account</h3>
+
+<p>Sign up and join the creator network.</p>
+
+</div>
+
+<div class="step">
+
+<div class="number">02</div>
+
+<h3>Complete Your Profile</h3>
+
+<p>Add your social stats and niche.</p>
+
+</div>
+
+<div class="step">
+
+<div class="number">03</div>
+
+<h3>Get Matched With Brands</h3>
+
+<p>We match creators with campaigns.</p>
+
+</div>
+
+<div class="step">
+
+<div class="number">04</div>
+
+<h3>Create Content & Get Paid</h3>
+
+<p>Publish content and receive payment.</p>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<section class="section">
+
+<div class="container" style="text-align:center">
+
+<h2>Start Earning With Your Content</h2>
+
+<a class="cta" href="https://platform.dailymediaboostconnect.com">
+
+Join as a Creator →
+
+</a>
+
+</div>
+
+</section>
+
+<footer>
+
+© 2026 DailyMediaBoost Connect
+
+</footer>
+
+<a href="https://platform.dailymediaboostconnect.com" class="sticky">
+
+Join Creator →
+
+</a>
+
+<script>
+
+let count=1200
+
+let target=1284
+
+let interval=setInterval(()=>{
+
+count++
+
+document.getElementById("count").innerText=count
+
+if(count>=target){
+
+clearInterval(interval)
+
+}
+
+},40)
+
+</script>
+
 </body>
+
 </html>
